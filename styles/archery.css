@@ -21,7 +21,7 @@
   margin: 0 50%;
   left: -240px;
   right: 0;
-  top: 180px;
+  top: 190px;
   bottom: 0;
   height: 475px;
   width: 475px;
@@ -93,12 +93,30 @@
   width: 220px;
 }
 
-.rotate315 {
+.rotate235 {
   background:  no-repeat;
+  border: 3px solid red;
+  border-radius: 15px;
   width:180px;
   height:30px;
   position: relative;
-  left: 100px;
+  left: 105px;
+  top: 0px;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+
+.rotate315 {
+  background:  no-repeat;
+  border: 3px solid red;
+  border-radius: 15px;
+  width:180px;
+  height:30px;
+  position: relative;
+  left: 80px;
   top: 0px;
   -webkit-transform: rotate(315deg);
   -moz-transform: rotate(315deg);
@@ -109,6 +127,8 @@
 
 .rotate45 {
   background:  no-repeat;
+  border: 3px solid red;
+  border-radius: 15px;
   width:180px;
   height:32px;
   position: relative;
@@ -123,10 +143,12 @@
 
 .rotate451 {
   background:  no-repeat;
+  border: 3px solid red;
+  border-radius: 15px;
   width:180px;
   height:32px;
   position: relative;
-  left: 140px;
+  left: 120px;
   top: 20;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -136,6 +158,8 @@
 }
 .rotate0 {
   background:  no-repeat;
+  border: 3px solid red;
+  border-radius: 15px;
   width:180px;
   height:32px;
   position: relative;
@@ -150,10 +174,12 @@
 
 .rotate180 {
   background:  no-repeat;
+  border: 3px solid red;
+  border-radius: 15px;
   width:180px;
   height:32px;
   position: relative;
-  left: 170px;
+  left: 150px;
   top: 0px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -162,18 +188,23 @@
   transform: rotate(0deg);
 }
 
-.rotate235 {
+/*.rotate235 {
   background:  no-repeat;
-  width:180px; height:32px;
-  -webkit-transform: rotate(235deg);
-  -moz-transform: rotate(235deg);
-  -ms-transform: rotate(235deg);
-  -o-transform: rotate(235deg);
-  transform: rotate(235deg);
-}
+  border: 3px solid red;
+  border-radius: 15px;
+  width:180px;
+  height:32px;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg);
+}*/
 
 .rotate0 {
   background:  no-repeat;
+  border: 3px solid red;
+  border-radius: 15px;
   width:180px; height:32px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -294,4 +325,16 @@
 .centerarrows {
   left: 20%;
   position: absolute;
+}
+
+#menu {
+    width: 550px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+    background-color: #8AD9FF;
+        border-radius: 8px;
 }
